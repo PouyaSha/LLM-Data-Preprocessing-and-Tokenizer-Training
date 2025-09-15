@@ -4,7 +4,8 @@ LLM Data Preprocessing and Tokenizer Training
 This repository documents the process of cleaning a raw text dataset for training Large Language Models (LLMs) and demonstrates the training of three different subword tokenizers. The project uses a sample of the Persian subset of the Common Crawl (C4) dataset to showcase the importance of a high-quality data pipeline.
 
 You can view the notebook for this project here:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/14rtlhEy2H7ko7NTYhzmIxSXwcQfqlBau?usp=sharing)
+
+[![LLM_Data_Preprocess_Tokenizer](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/14rtlhEy2H7ko7NTYhzmIxSXwcQfqlBau?usp=sharing)
 
 1\. Data Exploration and Statistics 
 --------------------------------------
