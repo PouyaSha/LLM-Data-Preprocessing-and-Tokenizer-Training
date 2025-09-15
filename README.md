@@ -3,6 +3,9 @@ LLM Data Preprocessing and Tokenizer Training
 
 This repository documents the process of cleaning a raw text dataset for training Large Language Models (LLMs) and demonstrates the training of three different subword tokenizers. The project uses a sample of the Persian subset of the Common Crawl (C4) dataset to showcase the importance of a high-quality data pipeline.
 
+You can view the notebook for this project here:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/14rtlhEy2H7ko7NTYhzmIxSXwcQfqlBau?usp=sharing)
+
 1\. Data Exploration and Statistics 
 --------------------------------------
 
@@ -43,7 +46,7 @@ The pipeline consisted of the following six filters:
 *   **Stop Word Filter**: Removes documents that do not contain a minimum number of common stop words, which can be an indicator of unnatural text.
     
 
-### Hyperparameter Tuning 🎯
+### Hyperparameter Tuning 
 
 The goal was to tune the filter hyperparameters to retain approximately **60%** of the original data. This was an iterative process.
 
