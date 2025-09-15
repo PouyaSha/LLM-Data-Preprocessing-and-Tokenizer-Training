@@ -8,7 +8,16 @@ This repository documents the process of cleaning a raw text dataset for trainin
 
 The first step was to load the raw data and analyze its basic properties. The initial dataset consisted of **52,663 documents**.
 
-`   --- Dataset Statistics ---  Number of documents: 52,663  Average document length: 504.17 words  Largest document length: 32,478 words  Smallest document length: 2 words  -------------------------  Total number of words: 26,550,903  Most frequent word: 'و' (appeared 1,026,606 times)   `
+```
+--- Dataset Statistics ---
+Number of documents: 52,663
+Average document length: 504.17 words
+Largest document length: 32,478 words
+Smallest document length: 2 words
+-------------------------
+Total number of words: 26,550,903
+Most frequent word: 'و' (appeared 1,026,606 times)
+```
 
 The wide range in document length—from just 2 words to over 32,000—immediately suggested the presence of low-quality or noisy data that needed to be filtered.
 
